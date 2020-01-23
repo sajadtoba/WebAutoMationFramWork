@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
+        <module name="United_Health_Care" />
         <module name="Amazon_AutoMation" />
+        <module name="Bank_Of_America" />
       </profile>
     </annotationProcessing>
   </component>

@@ -11,6 +11,8 @@
     <modules>
         <module>Generic</module>
         <module>Amazon_AutoMation</module>
+        <module>Bank_Of_America</module>
+        <module>United_Health_Care</module>
     </modules>
 
     <dependencyManagement>

@@ -9,17 +9,15 @@ import org.openqa.selenium.interactions.Actions;
 public class Home_Page extends CommonAPI {
 
     public void createAC() throws InterruptedException {
-        Thread.sleep(2000);
-        Actions action = new Actions(driver);
-        WebElement element = driver.findElement(By.xpath("//*[@id='nav-link-prime']/span[2]"));
+        Actions action = new Actions(driver); // we are doing mouse hover action on amazon account&list element using below method
+        WebElement element = driver.findElement(By.xpath("//*[@id=\'nav-link-accountList\']"));
         action.moveToElement(element).build().perform();
-        element.click();
         Thread.sleep(2000);
-        //this.driver.findElement(By.xpath("//*[@id='nav-signin-tooltip']/a/span']")).click();
-
-
-
-
-
     }
+    public void clickSignBTN() throws InterruptedException {
+        driver.findElement(By.xpath("//*[@id=\'nav-flyout-ya-signin\']/a/span")).click();
+        Thread.sleep(500);
+    }
+
+
 }

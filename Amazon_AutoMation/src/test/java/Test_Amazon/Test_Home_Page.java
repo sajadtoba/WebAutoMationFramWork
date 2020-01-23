@@ -5,12 +5,13 @@ import amazon_Home.Home_Page;
 import org.testng.annotations.Test;
 
 public class Test_Home_Page extends Home_Page {
-    @Test
+    @Test(priority = 1)
     public void testAC() throws InterruptedException {
         driver.get("https://www.amazon.com/");
         //Home_Page home = new Home_Page();
         createAC();
-
+        clickSignBTN();
     }
+
 
 }

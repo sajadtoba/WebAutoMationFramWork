@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15f5522-bc4a-427a-9a28-d4b0c093ccd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bank_Of_America/src/main/java/home/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/United_Health_Care/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon_AutoMation/src/main/java/amazon_Pages/Create_Acct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon_AutoMation/src/test/java/Test_Amazon/Test_Create_Acct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/src/main/java/amazon_Home/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_AutoMation/src/main/java/amazon_Home/Home_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/src/test/java/Test_Amazon/Test_Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_AutoMation/src/test/java/Test_Amazon/Test_Home_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/target/classes/amazon_Home/Home_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_AutoMation/target/classes/amazon_Home/Home_Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/target/test-classes/Test_Amazon/Test_Home_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_AutoMation/target/test-classes/Test_Amazon/Test_Home_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/src/main/java/amazon_Home/Home_Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/src/test/java/Test_Amazon/Test_Home_Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/src/test/resources/AmazonXMLRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_AutoMation/src/test/resources/AmazonXMLRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/target/classes/amazon_Home/Home_Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/target/test-classes/AmazonXMLRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon_AutoMation/target/test-classes/AmazonXMLRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon_AutoMation/target/test-classes/Test_Amazon/Test_Home_Page.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Common/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/Common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/Common/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/United_Health_Care/src/main/java/home/HomePageUHC.java" beforeDir="false" afterPath="$PROJECT_DIR$/United_Health_Care/src/main/java/home/HomePageUHC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/United_Health_Care/src/test/java/homeTest/UHCHomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/United_Health_Care/src/test/java/homeTest/UHCHomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/United_Health_Care/target/classes/home/HomePageUHC.class" beforeDir="false" afterPath="$PROJECT_DIR$/United_Health_Care/target/classes/home/HomePageUHC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/United_Health_Care/target/test-classes/homeTest/UHCHomeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/United_Health_Care/target/test-classes/homeTest/UHCHomeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,43 +65,8 @@
       <recent name="$PROJECT_DIR$/Generic/src/main/Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UHCHomeTest.uhcTest">
-    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Bank_Of_America" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhome" />
-      <option name="MAIN_CLASS_NAME" value="testhome.TestHomePage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testAct" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Bank_Of_America" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhome" />
-      <option name="MAIN_CLASS_NAME" value="testhome.TestHomePage" />
-      <option name="METHOD_NAME" value="testAct" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_Home_Page.testAC" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/sajadakbar/Documents/develop/SeleniumJuly2019/WebAutomationFrameWork/Amazon_AutoMation/src/test/resources/AmazonXMLRunner.xml">
+    <configuration name="Test_Create_Acct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_AutoMation" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +75,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test_Amazon" />
-      <option name="MAIN_CLASS_NAME" value="Test_Amazon.Test_Home_Page" />
+      <option name="MAIN_CLASS_NAME" value="Test_Amazon.Test_Create_Acct" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Create_Acct.testAC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_AutoMation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test_Amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test_Amazon" />
+      <option name="MAIN_CLASS_NAME" value="Test_Amazon.Test_Create_Acct" />
       <option name="METHOD_NAME" value="testAC" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -116,17 +101,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCHomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="United_Health_Care" />
+    <configuration name="Test_Online_Order.testOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_AutoMation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeTest.*" />
+          <option name="PATTERN" value="Test_Amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homeTest" />
-      <option name="MAIN_CLASS_NAME" value="homeTest.UHCHomeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="Test_Amazon" />
+      <option name="MAIN_CLASS_NAME" value="Test_Amazon.Test_Online_Order" />
+      <option name="METHOD_NAME" value="testOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,13 +137,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/sajadakbar/Documents/develop/SeleniumJuly2019/WebAutomationFrameWork/Amazon_AutoMation/src/test/resources/AmazonXMLRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_AutoMation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon_AutoMation/src/test/resources/AmazonXMLRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/sajadakbar/Documents/develop/SeleniumJuly2019/WebAutomationFrameWork/Amazon_AutoMation/src/test/resources/AmazonXMLRunner.xml" />
+        <item itemvalue="TestNG.Test_Online_Order.testOrder" />
+        <item itemvalue="TestNG.Test_Create_Acct" />
         <item itemvalue="TestNG.UHCHomeTest.uhcTest" />
-        <item itemvalue="TestNG.UHCHomeTest" />
-        <item itemvalue="TestNG.TestHomePage.testAct" />
-        <item itemvalue="TestNG.TestHomePage" />
-        <item itemvalue="TestNG.Test_Home_Page.testAC" />
+        <item itemvalue="TestNG.Test_Create_Acct.testAC" />
       </list>
     </recent_temporary>
   </component>
@@ -191,38 +187,73 @@
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="624" y="305" key="#Project_Structure/0.0.2048.1280@0.0.2048.1280" timestamp="1579575601755" />
-    <state x="758" y="222" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579747923801">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state x="758" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579884076418">
+      <screen x="0" y="23" width="2048" height="1172" />
     </state>
     <state x="758" y="222" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1579747923801" />
-    <state width="2006" height="266" key="GridCell.Tab.0.bottom" timestamp="1579748858248">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state x="758" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2048.1172@0.23.2048.1172" timestamp="1579884076418" />
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom" timestamp="1579924112452">
+      <screen x="0" y="23" width="2048" height="1172" />
     </state>
-    <state width="2006" height="266" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1579748858248" />
+    <state width="2006" height="265" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1579881766356" />
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1172@0.23.2048.1172" timestamp="1579924112452" />
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1173@0.23.2048.1173" timestamp="1579897182717" />
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1176@0.23.2048.1176" timestamp="1579897755855" />
     <state width="1483" height="188" key="GridCell.Tab.0.bottom/0.23.2048.1177@0.23.2048.1177" timestamp="1579739520482" />
-    <state width="2006" height="266" key="GridCell.Tab.0.center" timestamp="1579748858247">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1178@0.23.2048.1178" timestamp="1579897782198" />
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1180@0.23.2048.1180" timestamp="1579898741486" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center" timestamp="1579924112452">
+      <screen x="0" y="23" width="2048" height="1172" />
     </state>
-    <state width="2006" height="266" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1579748858247" />
+    <state width="2006" height="265" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1579881766355" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1172@0.23.2048.1172" timestamp="1579924112452" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1173@0.23.2048.1173" timestamp="1579897182716" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1176@0.23.2048.1176" timestamp="1579897755854" />
     <state width="1483" height="188" key="GridCell.Tab.0.center/0.23.2048.1177@0.23.2048.1177" timestamp="1579739520481" />
-    <state width="2006" height="266" key="GridCell.Tab.0.left" timestamp="1579748858247">
-      <screen x="0" y="0" width="2048" height="1280" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1178@0.23.2048.1178" timestamp="1579897782198" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1180@0.23.2048.1180" timestamp="1579898741485" />
+    <state width="2006" height="292" key="GridCell.Tab.0.left" timestamp="1579924112451">
+      <screen x="0" y="23" width="2048" height="1172" />
     </state>
-    <state width="2006" height="266" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1579748858247" />
+    <state width="2006" height="265" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1579881766355" />
+    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1172@0.23.2048.1172" timestamp="1579924112451" />
+    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1173@0.23.2048.1173" timestamp="1579897182716" />
+    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1176@0.23.2048.1176" timestamp="1579897755854" />
     <state width="1483" height="188" key="GridCell.Tab.0.left/0.23.2048.1177@0.23.2048.1177" timestamp="1579739520481" />
-    <state width="2006" height="266" key="GridCell.Tab.0.right" timestamp="1579748858248">
+    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1178@0.23.2048.1178" timestamp="1579897782197" />
+    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1180@0.23.2048.1180" timestamp="1579898741485" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right" timestamp="1579924112452">
+      <screen x="0" y="23" width="2048" height="1172" />
+    </state>
+    <state width="2006" height="265" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1579881766356" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1172@0.23.2048.1172" timestamp="1579924112452" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1173@0.23.2048.1173" timestamp="1579897182717" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1176@0.23.2048.1176" timestamp="1579897755855" />
+    <state width="1483" height="188" key="GridCell.Tab.0.right/0.23.2048.1177@0.23.2048.1177" timestamp="1579739520482" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1178@0.23.2048.1178" timestamp="1579897782198" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1180@0.23.2048.1180" timestamp="1579898741486" />
+    <state x="525" y="278" key="SettingsEditor" timestamp="1579884785406">
+      <screen x="0" y="23" width="2048" height="1172" />
+    </state>
+    <state x="525" y="279" key="SettingsEditor/0.0.2048.1280@0.0.2048.1280" timestamp="1579798231880" />
+    <state x="525" y="278" key="SettingsEditor/0.23.2048.1172@0.23.2048.1172" timestamp="1579884785406" />
+    <state x="439" y="477" key="com.intellij.ide.util.TipDialog" timestamp="1579875905407">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="266" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1579748858248" />
-    <state width="1483" height="188" key="GridCell.Tab.0.right/0.23.2048.1177@0.23.2048.1177" timestamp="1579739520482" />
-    <state x="439" y="462" key="com.intellij.ide.util.TipDialog" timestamp="1579630737649">
-      <screen x="0" y="23" width="2048" height="1177" />
-    </state>
+    <state x="439" y="477" key="com.intellij.ide.util.TipDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1579875905407" />
     <state x="439" y="462" key="com.intellij.ide.util.TipDialog/0.23.2048.1177@0.23.2048.1177" timestamp="1579630737649" />
+    <state x="682" y="262" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579802531160">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="682" y="262" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1280@0.0.2048.1280" timestamp="1579802531160" />
     <state x="279" y="309" key="new project wizard" timestamp="1579739040761">
       <screen x="0" y="23" width="2048" height="1177" />
     </state>
     <state x="279" y="311" key="new project wizard/0.0.2048.1280@0.0.2048.1280" timestamp="1579573181693" />
     <state x="279" y="309" key="new project wizard/0.23.2048.1177@0.23.2048.1177" timestamp="1579739040761" />
+    <state x="689" y="287" width="670" height="676" key="search.everywhere.popup" timestamp="1579912138915">
+      <screen x="0" y="23" width="2048" height="1172" />
+    </state>
+    <state x="689" y="287" width="670" height="676" key="search.everywhere.popup/0.23.2048.1172@0.23.2048.1172" timestamp="1579912138915" />
   </component>
 </project>

@@ -1,10 +1,9 @@
 package Test_Amazon;
 
-import Common.CommonAPI;
-import amazon_Home.Home_Page;
+import amazon_Pages.Create_Acct;
 import org.testng.annotations.Test;
 
-public class Test_Home_Page extends Home_Page {
+public class Test_Create_Acct extends Create_Acct {
     @Test(priority = 1)
     public void testAC() throws InterruptedException {
         driver.get("https://www.amazon.com/");

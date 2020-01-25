@@ -1,16 +1,24 @@
 package Common;
 
+import com.oracle.tools.packager.IOUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
-
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 
 public class CommonAPI {
+
+    private static IOUtils FileUtils;
     public WebDriver driver = null;
 
     @BeforeMethod
@@ -21,8 +29,6 @@ public class CommonAPI {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-
-
 
     public void clickOnElement(String locator){
         try {
@@ -52,5 +58,23 @@ public class CommonAPI {
         //driver.close();
     }
 
+    public static void captureScreenshot(WebDriver driver, String screenshotName) {
+        DateFormat df = new SimpleDateFormat("(MM-dd)");
+        Date date = new Date();
+        df.format(date);
+        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+
+            FileUtils.copyFile(file, new File(("screenshots//")+ screenshotName+" "+df.format(date) + ".png"));
+            System.out.println("Screenshot captured");
+        } catch (Exception e) {
+            System.out.println("Exception while taking screenshot " + e.getMessage());
+        }
+    }
+    // Taking Screen shots
+    public void takeScreenShot() throws IOException {
+        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(file, new File("screenShots.png"));
+    }
 
 }
